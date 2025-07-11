@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Prime Day Deals</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Amazon Prime Day Deals</h1>
+      <nav>
+        <a href="#deals">Hot Deals</a>
+        <a href="#submitLink">Submit Your Deal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Get the Best Prime Day Deals</h2>
+      <p>Shop exclusive offers during Amazon Prime Day and save big on top products!</p>
+      <a href="#deals" class="btn-primary">Check Deals Now</a>
+    </section>
+
+    <section id="deals" class="deals">
+      <h2>Featured Products</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250" alt="Product Image">
+          <h3>Product Name</h3>
+          <p class="price">$199.99</p>
+          <a href="https://www.amazon.com/dp/B08CVX3NQ5?tag=your-affiliate-id" class="btn-primary" target="_blank">Buy Now</a>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250" alt="Product Image">
+          <h3>Product Name</h3>
+          <p class="price">$129.99</p>
+          <a href="https://www.amazon.com/dp/B08CVX3NQ5?tag=your-affiliate-id" class="btn-primary" target="_blank">Buy Now</a>
+        </div>
+        <!-- Add more products here -->
+      </div>
+    </section>
+
+    <section id="submitLink" class="submit-link">
+      <h2>Submit Your Amazon Prime Day Deal</h2>
+      <form action="#" method="POST">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required>
+
+        <label for="productPrice">Product Price ($):</label>
+        <input type="text" id="productPrice" name="productPrice" required>
+
+        <label for="affiliateLink">Affiliate Link:</label>
+        <input type="url" id="affiliateLink" name="affiliateLink" required>
+
+        <button type="submit" class="btn-primary">Submit Deal</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Amazon Prime Day Deals | Powered by You</p>
+  </footer>
+</body>
+</html>
